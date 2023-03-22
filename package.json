@@ -42,5 +42,8 @@
   },
   "dependencies": {
     "scrape-it": "^5.2.4"
-  }
+  },
+  "contributors": [
+     "Simone Guarnuccio <simoneguarnuccio@gmail.com>"
+  ]
 }
