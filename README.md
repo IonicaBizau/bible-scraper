@@ -154,7 +154,7 @@ Returns the Bible url reference from bible.com.
 #### Return
 - **String** The reference url.
 
-### `verse(ref)`
+verse
 Fetches the verse.
 
 #### Params
@@ -164,7 +164,7 @@ Fetches the verse.
 #### Return
 - **Promise** A promise resolving the verse object.
 
-### `chapter(ref)`
+chapter
 Fetches the chapter verses.
 
 #### Params
