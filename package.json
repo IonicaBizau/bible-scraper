@@ -11,7 +11,7 @@
     "youversion"
   ],
   "license": "MIT",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -44,6 +44,6 @@
     "scrape-it": "^6.0.1"
   },
   "contributors": [
-     "Simone Guarnuccio <simoneguarnuccio@gmail.com>"
+    "Simone Guarnuccio <simoneguarnuccio@gmail.com>"
   ]
 }
