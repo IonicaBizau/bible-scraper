@@ -14,7 +14,7 @@
   "version": "2.0.1",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest tests/index.test.js"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "homepage": "https://github.com/IonicaBizau/bible-scraper#readme",
@@ -45,5 +45,8 @@
   },
   "contributors": [
     "Simone Guarnuccio <simoneguarnuccio@gmail.com>"
-  ]
+  ],
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
