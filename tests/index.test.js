@@ -225,7 +225,10 @@ describe('BibleScraper', () => {
             "content": "And God saw every thing that he had made, and, behold, it was very good. And the evening and the morning were the sixth day.",
             "reference": "Genesis 1:31"
           }
-        ]
+        ],
+        audioBibleUrl: 'https://audio-bible-cdn.youversionapi.com',
+        copyright: "Rights in the Authorized (King James) Version in the United Kingdom are vested in the Crown. Published by permission of the Crown’s patentee, Cambridge University Press.",
+        audioBibleCopyright: "Copyright 2007 Fellowship for the Performing Arts"
       }
 
       const chapter = await bibleScraper.chapter(reference);
@@ -233,6 +236,9 @@ describe('BibleScraper', () => {
       expect(chapter.verses).toEqual(expectedChapter.verses);
       expect(chapter.reference).toEqual(expectedChapter.reference);
       expect(chapter.version).toEqual(expectedChapter.version);
+      expect(chapter.audioBibleCopyright).toEqual(expectedChapter.audioBibleCopyright);
+      expect(chapter.copyright).toEqual(expectedChapter.copyright);
+      expect(chapter.audioBibleUrl).toContain(expectedChapter.audioBibleUrl);
     });
   });
 });
