@@ -144,14 +144,6 @@ Retrieves verses from bible.com, provided by YouVersion. Initializes the `BibleS
 
 - **Number** `translationId`: - The translation id from bible.com.
 
-### BibleScraper.BOOKS
-
-The available books from bible.com.
-
-### BibleScraper.TRANSLATIONS
-
-The translation ID's from bible.com.
-
 ### constructor
 
 Constructor for the class.
@@ -203,6 +195,14 @@ Fetches the chapter verses.
 
 #### Return
 - **Promise** A promise resolving the chapter object.
+
+### BibleScraper.BOOKS
+
+The available books from bible.com.
+
+### BibleScraper.TRANSLATIONS
+
+The translation ID's from bible.com.
 
 
 
