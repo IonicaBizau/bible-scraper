@@ -11,7 +11,7 @@
     "youversion"
   ],
   "license": "MIT",
-  "version": "2.1.3",
+  "version": "2.2.0",
   "main": "lib/index.js",
   "scripts": {
     "test": "jest tests/index.test.js"
